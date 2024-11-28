@@ -26,11 +26,21 @@ git clone https://github.com/seu-usuario/monitoramento-de-precos.git
 cd monitoramento-de-precos
 ```
 2. Configure o ambiente
-- Certifique-se de que o Google Chrome está instalado.
-- Baixe o ChromeDriver compatível com sua versão do navegador e adicione-o ao PATH.
+- Certifique-se de que o **Google Chrome** está instalado.
+- Baixe o **ChromeDriver** compatível com sua versão do navegador e adicione-o ao PATH.
 
 3. Edite o script se necessário: 
-No script, substitua a URL do produto no método get_information para o produto que deseja monitorar:
+No script, substitua o link do produto na variavel **URL** para o produto que deseja monitorar:
 ```bash
 url = 'URL_DO_PRODUTO_AQUI'
+```
+
+4. Execute o script:
+```bash
+python monitoramento.py
+```
+
+5. Acompanhe os dados salvos: O script salva as informações na planilha
+```bash
+python monitoramento.py
 ```
