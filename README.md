@@ -19,7 +19,7 @@ Para instalar os pacotes necessários:
 ```bash
 pip install selenium openpyxl schedule
 ```
-## **Como usar:**
+# **Como usar:**
 1. Clone este repositório:
 ```bash
 git clone https://github.com/seu-usuario/monitoramento-de-precos.git
