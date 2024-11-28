@@ -19,3 +19,5 @@ Para instalar os pacotes necessários:
 ```bash
 pip install selenium openpyxl schedule
 
+## **Como usar:**
+
