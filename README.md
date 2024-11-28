@@ -43,6 +43,7 @@ python monitoramento.py
 5. Iterrupção da automação:
 - Caso queira para a automação, digite **Ctrl + C** no terminal
 
+
 6. Acompanhe os dados salvos: O script salva as informações na planilha
 ```bash
 Planilha_de_preços.xlsx
