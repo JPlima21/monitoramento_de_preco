@@ -42,5 +42,5 @@ python monitoramento.py
 
 5. Acompanhe os dados salvos: O script salva as informações na planilha
 ```bash
-python monitoramento.py
+Planilha_de_preços.xlsx
 ```
