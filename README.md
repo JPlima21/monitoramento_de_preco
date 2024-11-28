@@ -49,5 +49,5 @@ Planilha_de_preços.xlsx
 
 Veja como os dados são organizados na planilha após a execução do script:
 
-![Exemplo de saída](saida-excel.png)
+![Exemplo de saída](https://github.com/user-attachments/assets/9202a144-1067-475d-885a-5e5a8f69b94a)
 
