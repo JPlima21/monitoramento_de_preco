@@ -44,3 +44,10 @@ python monitoramento.py
 ```bash
 Planilha_de_preços.xlsx
 ```
+
+## Exemplo de saída na planilha Excel
+
+Veja como os dados são organizados na planilha após a execução do script:
+
+![Exemplo de saída](images/saida-excel.png)
+
