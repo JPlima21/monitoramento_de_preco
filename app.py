@@ -23,7 +23,10 @@ def config_driver():
     arguments = ['--window-position=200,100', 
                  '--lang=pt-br', 
                  '--incognito', 
-                 '--disable-site-isolation-trials']
+                 '--disable-site-isolation-trials',
+                 '--disable-blink-features=AutomationControlled',
+                 '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36'
+                 ]
 
     for argument in arguments:
         drive_options.add_argument(argument)
