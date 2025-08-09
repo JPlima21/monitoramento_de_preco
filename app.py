@@ -60,12 +60,12 @@ def get_information(wait, driver):
     print('Pegando informações...')
     try:
         wait.until(EC.presence_of_element_located((By.XPATH, '//span[@id="productTitle"]')))
-        wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span[2]/span[2]/span[@class="a-price-whole"]')))
-        wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span[2]/span[2]/span[@class="a-price-fraction"]')))
+        wait.until(EC.presence_of_element_located((By.XPATH, '//*[@class="a-price-whole"]')))
+        wait.until(EC.presence_of_element_located((By.XPATH, '//*[@class="a-price-fraction"]')))
 
         product_name = driver.find_element(By.XPATH, '//span[@id="productTitle"]')
-        product_price1 = driver.find_element(By.XPATH, '//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span[2]/span[2]/span[@class="a-price-whole"]')
-        product_price2 = driver.find_element(By.XPATH, '//*[@id="corePriceDisplay_desktop_feature_div"]/div[1]/span[2]/span[2]/span[@class="a-price-fraction"]')
+        product_price1 = driver.find_element(By.XPATH, '//*[@class="a-price-whole"]')
+        product_price2 = driver.find_element(By.XPATH, '//*[@class="a-price-fraction"]')
 
         product_name_text = product_name.text
         product_price_text = product_price1.text + ',' + product_price2.text
